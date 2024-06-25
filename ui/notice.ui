@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>610</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>使用说明</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>黑体</family>
+       <pointsize>14</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+       <underline>false</underline>
+       <strikeout>false</strikeout>
+      </font>
+     </property>
+     <property name="text">
+      <string>
+使用说明:
+1. 打开程序时，请先运行程序左上角的模型配置选择权重文件
+2. 请选择 yolov7 的权重模型
+
+运行&quot;图片检测&quot;时：
+    1. &quot;保存&quot;键保存单张图片到指定位置
+    2. &quot;保存所有&quot;键为保存文件目录下的所有图片到指定位置
+
+运行&quot;视频检测&quot;时：
+    1. 请先选择权重文件再进行视频检测
+    2. 选择视频文件后按&quot;开始&quot;键即可进行视频检测
+
+运行&quot;摄像头检测&quot;时：
+    1. 请先点击&quot;摄像头检测&quot;进行设备检测
+    2. 未检测到摄像头时，选择框显示&quot;-1&quot;</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+    </widget>
+   </item>
+   <item alignment="Qt::AlignHCenter">
+    <widget class="QPushButton" name="pushButton_r">
+     <property name="maximumSize">
+      <size>
+       <width>80</width>
+       <height>30</height>
+      </size>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>退出</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
